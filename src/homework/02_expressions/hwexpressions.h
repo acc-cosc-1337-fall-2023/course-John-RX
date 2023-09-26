@@ -6,7 +6,7 @@ using namespace std;
 
 //write function prototype here
 
-double TAX_RATE = 0.0675;
+const double TAX_RATE = 0.0675;
 double get_sales_tax_amount(double meal_amount)
 {
     double tax_calculation = meal_amount * TAX_RATE;

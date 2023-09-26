@@ -1,5 +1,6 @@
 #include "hwexpressions.h"
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 //example
@@ -9,7 +10,6 @@ int add_numbers(int num1, int num2)
 }
 
 //write function code here
-double TAX_RATE = 0.0675;
 int main()
 {
 	double meal_amount, sales_tax, tip_rate, tip_cost;
