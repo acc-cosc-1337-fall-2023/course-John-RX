@@ -5,16 +5,17 @@ using namespace std;
 //add function(s) code here
 int factorial()
 {
-    int num, factorialMath = 0, originalNum; 
+    int num, factorialMath = 1, originalNum; 
     cout << "This program takes any integer and returns its factorial.\n";
     cout << "Please enter an integer: ";
     cin >> num;
     originalNum = num;
-    for (num; num >= 1; num--)
+    for (int forLoop = num; forLoop >= 1; forLoop--)
     {
-        factorialMath *= num;
+        factorialMath *= forLoop;
     }
     cout << "The factorial of your integer " << originalNum << " is " << factorialMath << endl;
+return 0;
 }
 
 
@@ -43,4 +44,5 @@ int gcd()
     }
     cout << "The greatest common divisor of " << originalnum1;
     cout << " and " << originalnum2 << " is " << num1 << endl;
+return 0;
 }
